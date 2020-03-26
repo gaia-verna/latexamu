@@ -62,10 +62,11 @@
 	backend=biber,							%% compilateur par défaut pour biblatex
 	maxnames=3,								%% nombre max. de noms auteurs
 	minnames=3,								%% nombre min. de noms auteurs
-	sorting=nyt,							%% trier par nom, année, titre
-	citestyle=authoryear,					%% style de citation auteur-année
-	bibstyle=alphabetic,					%% style de bibliographie alphabétique
+	sorting=none,							%% trier par nom, année, titre
+%	citestyle=authoryear,					%% style de citation auteur-année
+%	bibstyle=alphabetic,					%% style de bibliographie alphabétique
 %	bibstyle=iso-authoryear,				%% style de bibliographie ISO 690
+        bibstyle=numeric,
 	backref=true							%% liens retour des références (cf. p.)
 	}
 	{biblatex}
@@ -106,8 +107,8 @@
 \RequirePackage{nicefrac}					%% fractions en ligne
 \RequirePackage{siunitx}					%% unités du système international
 \sisetup{									%% options pour les unités
-	output-decimal-marker = {,},
-	output-exponent-marker = {.},
+%	output-decimal-marker = {,},
+%	output-exponent-marker = {.},
 	separate-uncertainty = true
 	}
 \PassOptionsToPackage{version=4}{mhchem}

@@ -22,7 +22,7 @@
 \RequirePackage[utf8]{inputenc}				%% encodage du texte
 \RequirePackage[TS1,T1]{fontenc}			%% encodage des fontes
 \RequirePackage{lmodern}					%% polices latines
-\RequirePackage[english,french]{babel}		%% typographie (français par défaut)
+\RequirePackage[french, english]{babel}		%% typographie (français par défaut)
 \RequirePackage[babel]{csquotes}			%% guillemets typographiques
 \MakeAutoQuote{«}{»}						%% espacement automatique des guillemets
 

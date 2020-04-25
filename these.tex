@@ -1,5 +1,7 @@
 \documentclass{amu_these}
 
+\input{symbols.tex}
+
 \begin{document}
 
 										%% page de titre
@@ -48,20 +50,18 @@
 
 	\ohead{\leftmark\ifstr{\rightmark}{\leftmark}{}{ -- \rightmark}}	%% place le chapître et la partie en en-tête
 
-	\chapter*{Introduction}
+	%\chapter*{Introduction}
 	\input{tex/intro}
 	\addcontentsline{toc}{chapter}{Introduction}
 
-	\chapter{ Généralités}
+	%\chapter{Généralités}
 	\input{tex/chap1}
 
-	\chapter{ Méthodologie de la recherche}
 	\input{tex/chap2}
-
-	\chapter{ Résultats}
+	
 	\input{tex/chap3}
 
-	\chapter*{Conclusion}
+	%\chapter*{Conclusion}
 	\input{tex/conc}
 	\addcontentsline{toc}{chapter}{Conclusion}
 
